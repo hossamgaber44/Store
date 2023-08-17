@@ -1,0 +1,151 @@
+
+.nav-bar {
+    height: 12vh;
+    background: linear-gradient(0deg, #eeeeee 31%, #82e8f5 100%);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    z-index: 9999;
+}
+
+.top-header-menu {
+    display: none;
+}
+
+.navbar-close-icon {
+    display: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-icon h1 {
+    font-size: 37px;
+}
+
+.nav-icon span {
+    color: red;
+}
+
+.navbar .navbar-link {
+    color: #000000;
+    margin-right: 20px;
+    font-size: 17px;
+}
+
+.navbar .navbar-link:last-of-type {
+    background: rgb(225, 39, 39);
+    padding: 10px 10px;
+    border-radius: 4px;
+}
+
+.navbar .navbar-link:hover {
+    color: rgb(223, 15, 15);
+    margin-right: 20px;
+}
+
+.navbar .navbar-link:last-of-type:hover {
+    background: rgb(11, 254, 39);
+    color: #ffffff;
+    transition: all .3s ease-in-out;
+    transform: scale(1.09, 1.09);
+}
+
+.middle-header-shopping-cart {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.middle-header-shopping-cart {
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+.cart-notification {
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(232, 12, 12);
+}
+
+.navbar-close-icon {
+    display: none;
+    font-size: 32px;
+    color: #e74c3c;
+    padding: 10px;
+    width: 100%;
+}
+
+.navbar-close-icon i {
+    cursor: pointer;
+    color: var(--light-red-color);
+}
+
+.top-header-menu {
+    font-size: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 1100px) {
+    .navbar-link {
+        margin-right: 17px;
+    }
+}
+
+@media (max-width: 920px) {
+    .top-header-menu {
+        display: block;
+    }
+
+    .navbar-close-icon {
+        display: block;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        right: -320px;
+        background-color:#000000cc;
+        width: 320px;
+        height: 100vh;
+        padding: 0;
+        z-index: 99;
+        transition: all .5s ease;
+    }
+
+    .navbar .navbar-link {
+        width: fit-content;
+        color: #ffffff;
+    }
+
+    .navbar-links {
+        flex-direction: column;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        height: 80vh;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 700px) {
+    .navbar {
+        width: 100%;
+        right: -100%;
+    }
+}

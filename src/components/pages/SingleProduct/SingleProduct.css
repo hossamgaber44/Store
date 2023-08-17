@@ -1,0 +1,123 @@
+
+.SingleProduct{
+    padding-top: 12vh;
+}
+.SingleProduct-container{
+    width: 80%;
+    margin: auto;
+    padding: 30px 0px;
+}
+.single-product-content{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.img{ 
+    width: 45%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 12px;
+    background: #ffffff;
+    max-height: 60vh;
+    overflow: hidden;
+}
+.single-product-info{
+    flex-basis: 46%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.single-product-info h2{
+     margin: 6px 0px;
+     color: #000000;
+}
+.single-product-info .brand{
+     font-size: 15px;
+     color: #34495e;
+}
+.single-product-info .data{
+    color: #34495e;
+}
+.single-product-price{
+    color:  rgb(232, 12, 12);
+    font-size: 19px;
+    margin: 4px 0px;  
+}
+.addcategory{
+    margin: 14px 22px 12px 0px;
+    display: flex;
+    align-items: center;
+}
+.addcategory input{
+    font-size: 22px;
+    width: 66px;
+    margin: 0px 22px 0px 0px;
+    padding: 7px 12px;
+    outline: none;
+    border: 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.addcategory button{
+    font-size: 17px;
+    border-radius: 4px;
+    padding: 10px 28px;
+    cursor: pointer;
+    color: #ffffff;
+    background: #0b3860;
+}
+
+
+@media (max-width:980px) {
+    .single-product-content{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: flex-start;
+    }
+    .img{
+        width: 77%;
+        margin: 0px;
+        border: none;
+        padding: 16px;
+        border-bottom: 1px solid rgb(189, 184, 184 , .5);
+    }
+    .SingleProduct-container{
+        width: 70%;
+        margin: auto;
+        padding: 30px 0px;
+    }
+    
+}
+
+@media (max-width: 680px) {
+    .single-product-content{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+    .img{
+        width: 70%;
+        margin: 0px;
+        padding: 16px;
+        border-bottom: 1px solid rgb(189, 184, 184 , .5);
+    }
+    .SingleProduct-container{
+        width: 70%;
+        margin: auto;
+        padding: 30px 0px;
+    }
+    .SingleProduct-container{
+        width:84%;
+        margin: auto;
+        padding: 20px 0px;
+    }
+}
+@media (max-width: 520px) {
+    .SingleProduct-container{
+        width: 90%;
+        margin: auto;
+        padding: 20px 0px;
+    }
+}

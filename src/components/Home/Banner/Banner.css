@@ -1,0 +1,24 @@
+.banner{
+   padding-top: 14vh;
+}
+.banner-img{
+    flex-basis: 48.5%;
+}
+.banner-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+@media (max-width: 720px) {
+    .banner-img{
+        flex-basis: 100%;
+        margin-bottom: 8px;
+    }
+    .banner-img img{
+        border-radius: 2px;
+    }
+    .banner-content{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}

@@ -1,0 +1,109 @@
+.offers h2{
+    margin: 22px;
+}
+.offers{
+    margin: 16px 0px;
+}
+.offers-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   flex-wrap: wrap;
+}
+.offer{
+    flex-basis: 23.6%;
+    text-align: center;
+    background: #ffffff;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 12px;
+    position: relative;
+    margin: 12px 0px;
+}
+.offer span{
+    font-size: 16px;
+}
+.offer .old-price{
+    color:  rgb(232, 12, 12);
+    text-decoration: line-through;
+}
+.offer .price{
+    margin: 12px;
+    font-size: 18px;
+}
+.offer .offer-btn{
+    display: block;
+    margin: auto;
+    padding: 12px 8px;
+    width:58%;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: #0b3860;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.offer .offer-btn:hover{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background: #efefef;
+    color: #34495e;
+}
+.discount{
+    background: #0b3860;
+    color: #ffffff;
+    border-radius: 22px;
+    display: block;
+    width: fit-content;
+    padding: 5px 8px;
+    position: absolute;
+    top: 24px;
+    left: -24px;
+    transform: rotate(-45deg);
+}
+.discount b{
+    color: rgb(232, 12, 12);
+}
+
+@media (max-width:1400px) {
+    .offer{
+        flex-basis:32.2%;
+    }
+    .offer-img{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 1100px) {
+    .offer{
+        flex-basis:48.2%;
+        padding: 0px;
+    }
+    .offer-img{
+        width: 80%;
+        margin: auto;
+    }
+    .offer .offer-btn{
+        width: 45%;
+        margin-bottom: 12px;
+    }
+}
+
+@media (max-width: 620px) {
+    .offer{
+        flex-basis:100%;
+        padding: 0px;
+    }
+    .offer-img{
+        width: 70%;
+        margin: auto;
+    }
+    .offer .offer-btn{
+        width: 40%;
+        margin-bottom: 12px;
+    }
+}

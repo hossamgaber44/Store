@@ -1,0 +1,97 @@
+.Register{
+    background: rgb(226, 219, 219) ;
+    height: 100%;
+    overflow: hidden;
+}
+.createAccount-page{
+    position: fixed;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+    width: 100%;
+    background:#eeeeee;
+   }
+   .createAccount-page .Register-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 524px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: #ffffffbb;
+    font-family: cursive;
+    color: white;
+   }
+   .createAccount-page .Register-content input{
+    padding: 11px 22px;
+    margin: 8px 0px;
+    border-radius: 8px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all 0s ease-in-out;
+    background-color:#ffffff;
+    color:#000000;
+    width: 85%;
+}
+.createAccount-page .Register-content .btn{
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 7px 22px;
+    margin: 20px 4px 18px;
+    width:fit-content;
+    font-size: 22px;
+    background: #24d2fe;
+    font-family: cursive;
+    width: fit-content;
+}
+.createAccount-page .Register-content .Register-img{
+    border-radius: 50%;
+    margin: auto;
+    padding: -20px;
+    width: 115px;
+    margin-top: -35px;
+    overflow: hidden; 
+}
+.createAccount-page .Register-content img{
+    background: #dbdbdb ;
+   
+}
+.createAccount-page .Register-content h2{
+    padding: 8px 2px;
+    color: #000000;
+}
+.createAccount-page .Register-content input:hover{
+    border: 2px solid rgb(1, 181, 187);   
+}
+.createAccount-page .Register-content .createAccount{
+    color: #000000;
+    opacity: 1;
+    font-size: 15px;
+}
+.createAccount-page .Register-content .createAccount a{
+    color: blue;
+    margin-left: 4px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+@media(max-width:500px){
+    .createAccount-page .Register-content{
+        width: 92%;
+        margin: auto;
+    }
+    .Register{
+        min-height: 140vh;
+    }
+    .createAccount-page .Register-content{
+        position: absolute;
+        top: 40px;
+        left: 3%;
+        transform: translate(0%,0%);
+        width: 94%;
+        margin: auto;
+       }
+}

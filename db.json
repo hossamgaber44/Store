@@ -1,0 +1,571 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "HP Laptop EliteBook 840 G5-Intel Core i5 ",
+      "brand": "HP",
+      "data": " Intel Core i5 7200U - 8 GB RAM - 256 GB SSD - Windows 10 Pro",
+      "image": "/images/products/laptops/l1.jpg",
+      "price": 750,
+      "rating": 4.5,
+      "reviews": "900",
+      "type": "laptop"
+    },
+    {
+      "id": 2,
+      "title": "HP 3RF15UT#ABA Elitebook 840 G5 14",
+      "brand": "HP",
+      "data": "Notebook - Windows - Intel Core i7 1.8 GHz - 16 GB RAM - 512 GB SSD, Silver",
+      "image": "/images/products/laptops/l2.jpg",
+      "price": 600,
+      "rating": 3.8,
+      "reviews": "250",
+      "type": "laptop"
+    },
+    {
+      "id": 3,
+      "title": "Lenovo V14 Laptop ",
+      "brand": "Lenovo",
+      "data": " – Athlon Gold 3150U, 4GB RAM, 1TB HDD, AMD Radeon Graphics, 14 Inch HD 1920x1080 220nits Anti-glare, Dos - Iron Grey",
+      "image": "/images/products/laptops/l3.jpg",
+      "price": 800,
+      "rating": 4.6,
+      "reviews": "1,200",
+      "type": "laptop"
+    },
+    {
+      "id": 4,
+      "title": "HP EliteBook Business 840 G3 T6F48UT#ABA Laptop",
+      "brand": "HP",
+      "data": "(Windows 10, Intel Core i5-6300U, 14 OLED Screen, Storage: 256 GB, RAM: 8 GB) Black/Grey",
+      "image": "/images/products/laptops/l4.jpg",
+      "price": 950,
+      "rating": 4.1,
+      "reviews": "7,548",
+      "type": "laptop"
+    },
+    {
+      "id": 5,
+      "title": "HP 255 G8 Laptop ",
+      "brand": "HP",
+      "data": " Athlon Gold 3150U, 4 GB RAM, 1 TB HDD, AMD Radeon Graphics, 15.6-Inch HD, DOS - Astroid",
+      "image": "/images/products/laptops/l1.jpg",
+      "price": 700,
+      "rating": 4.5,
+      "reviews": "2,200",
+      "type": "laptop"
+    },
+    {
+      "id": 6,
+      "title": "HP 15-dy2093dx",
+      "brand": "HP",
+      "data": " Intel Core i5-1135G7 8GB 256GB SSD 15.6in Full HD IPS Display Win 10 Laptop",
+      "image": "/images/products/laptops/l6.jpg",
+      "price": 990,
+      "rating": 4.8,
+      "reviews": "5,500",
+      "type": "laptop"
+    },
+    {
+      "id": 7,
+      "title": "HP ELiteBook ",
+      "brand": "HP",
+      "data": "Folio 9480m (J5P78UT#ABA) - i5-4310U Processor, 14 Screen, 4GB RAM, 256GB SSD",
+      "image": "/images/products/laptops/l7.jpg",
+      "price": 500,
+      "rating": 4.2,
+      "reviews": "850",
+      "type": "laptop"
+    },
+    {
+      "id": 8,
+      "title": "HP EliteBook",
+      "brand": "HP",
+      "data": "Touch Screen 755 G2 Laptop - AMD APU A6,15.6in, 500 GB, 4 GB, Windows 7, Silver",
+      "image": "/images/products/laptops/l8.jpg",
+      "price": 850,
+      "rating": 4.7,
+      "reviews": "8,200",
+      "type": "laptop"
+    },
+    {
+      "id": 9,
+      "title": "HP Laptop 15-dw3014ne",
+      "brand": "HP",
+      "data": "11th Intel Core i5-1135G7, 8GB RAM, 256GB SSD, NVIDIA GeForce MX350 2GB GDDR5 dedicated Graphics, 15.6 micro-edge, anti-glare 250 nits, Dos - Natural silver",
+      "image": "/images/products/laptops/l8.jpg",
+      "price": 900,
+      "rating": 4.1,
+      "reviews": "1,895",
+      "type": "laptop"
+    },
+    {
+      "id": 10,
+      "title": "Dell Gaming Laptop",
+      "brand": "Dell",
+      "data": "G5 5520 Ci7, 16GB RAM, 512SSD, Nvidia RTX 3060, Black",
+      "image": "/images/products/laptops/l10.jpg",
+      "price": 680,
+      "rating": 3.5,
+      "reviews": "8,124",
+      "type": "laptop"
+    },
+    {
+      "id": 11,
+      "title": "iphone 11",
+      "brand": "iphone",
+      "data": "64 GB, 128 GB, 256 GB A13 Bionic chip Dual 12MP Ultra Wide and Wide cameras",
+      "image": "/images/products/mobiles/m1.jpg",
+      "price": 800,
+      "rating": 4.9,
+      "reviews": "8,240",
+      "type": "phon"
+    },
+    {
+      "id": 12,
+      "title": "Samsung Galaxy M33",
+      "brand": "Samsung",
+      "data": "Dual SIM, 8GB RAM, 128GB Storage, 5G, Brown",
+      "image": "/images/products/mobiles/m2.jpg",
+      "price": 350,
+      "rating": 4.5,
+      "reviews": "9,014",
+      "type": "phon"
+    },
+    {
+      "id": 13,
+      "title": "Samsung Galaxy M32",
+      "brand": "Samsung",
+      "data": "Dual SIM, 8GB RAM, 128GB Storage, 5G, Brown",
+      "image": "/images/products/mobiles/m3.jpg",
+      "price": 200,
+      "rating": 3.5,
+      "reviews": "7,784",
+      "type": "phon"
+    },
+    {
+      "id": 14,
+      "title": "Poco X4 Pro",
+      "brand": "Xiaomi",
+      "data": "6.67-inch screen with a resolution of 1080 x 2400 pixels, an octa-core processor, 8 GB of RAM and a storage capacity of 256",
+      "image": "/images/products/mobiles/m4.jpg",
+      "price": 250,
+      "rating": 4.5,
+      "reviews": "2,401",
+      "type": "phon"
+    },
+    {
+      "id": 15,
+      "title": "Samsung galaxy S20 FE (5G) ",
+      "brand": "Samsung",
+      "data": "128GB 8GB RAM cloud white",
+      "image": "/images/products/mobiles/m5.jpg",
+      "price": 290,
+      "rating": 3.2,
+      "reviews": "420",
+      "type": "phon"
+    },
+    {
+      "id": 16,
+      "title": "Vivo V25E",
+      "brand": "Vivo",
+      "data": "8GB RAM, 128GB - Diamond Blue",
+      "image": "/images/products/mobiles/m6.jpg",
+      "price": 750,
+      "rating": 3.2,
+      "reviews": "1,500",
+      "type": "phon"
+    },
+    {
+      "id": 17,
+      "title": "iphone 12",
+      "brand": "iphone",
+      "data": "OS : iOS 14 CPU : Hexa-core Camera : Dual 12MP camera system Ultra Wide and Wide cameras",
+      "image": "/images/products/mobiles/m7.jpg",
+      "price": 700,
+      "rating": 4.5,
+      "reviews": "4,540",
+      "type": "phon"
+    },
+    {
+      "id": 18,
+      "title": "Samsung Galaxy S20 FE",
+      "brand": "Samsung",
+      "data": "Dual Sim Mobile - 6.5 Inches, 128 GB, 8 GB RAM, 4G - Cloud Navy",
+      "image": "/images/products/mobiles/m8.jpg",
+      "price": 500,
+      "rating": 4.5,
+      "reviews": "17,124",
+      "type": "phon"
+    },
+    {
+      "id": 19,
+      "title": "Samsung Galaxy A21 ",
+      "brand": "Samsung",
+      "data": "Dual Sim Mobile - 6.5 Inches, 64 GB, 4 GB RAM, 4G - Cloud Navy",
+      "image": "/images/products/mobiles/m9.jpg",
+      "price": 470,
+      "rating": 4.4,
+      "reviews": "4,700",
+      "type": "phon"
+    },
+    {
+      "id": 20,
+      "title": "Samsung Galaxy M52",
+      "brand": "Samsung",
+      "data": "Dual Sim Mobile - 6.5 Inches, 128 GB, 8 GB RAM, 4G - Cloud Navy",
+      "image": "/images/products/mobiles/m10.jpg",
+      "price": 850,
+      "rating": 3.2,
+      "reviews": "2,300",
+      "type": "phon"
+    },
+    {
+      "id": 21,
+      "title": "Nokia A12",
+      "brand": "Nokia",
+      "data": "Dual Sim Mobile ",
+      "image": "/images/products/mobiles/m11.jpg",
+      "price": 40,
+      "rating": 4.1,
+      "reviews": "850",
+      "type": "phon"
+    },
+    {
+      "id": 22,
+      "title": "Samsung Galaxy M13",
+      "brand": "Samsung",
+      "data": "Dual Sim Mobile - 6.5 Inches, 128 GB, 8 GB RAM, 4G - Cloud Navy",
+      "image": "/images/products/mobiles/m12.jpg",
+      "price": 620,
+      "rating": 4.8,
+      "reviews": "7,500",
+      "type": "phon"
+    },
+    {
+      "id": 23,
+      "title": "Nova 9 SE",
+      "brand": "HUAWEI",
+      "data": "Dual Sim 8GB Ram 128GB Rom 4G LTE",
+      "image": "/images/products/mobiles/m13.jpg",
+      "price": 250,
+      "rating": 3.5,
+      "reviews": "1,784",
+      "type": "phon"
+    },
+    {
+      "id": 24,
+      "title": "Samsung Galaxy M32",
+      "brand": "Samsung",
+      "data": "Dual Sim Mobile - 6.5 Inches, 256 GB, 8 GB RAM, 4G - Cloud Navy",
+      "image": "/images/products/mobiles/m14.jpg",
+      "price": 320,
+      "rating": 4.1,
+      "reviews": "8,102",
+      "type": "phon"
+    },
+    {
+      "id": 25,
+      "title": "Dell G15-5520 Gaming Laptop",
+      "brand": "Dell",
+      "data": "- 12th Intel Core i7-12700H 14-Cores, 16GB RAM DDR5 4800 MHz, 512GB SSD, NVIDIA Geforce RTX3050 4GB GDDR6 Graphics, 15.6 FHD 120 Hz, Backlit Keyboard, UBUNTU, Shadow Grey",
+      "image": "/images/products/laptops/l11.jpeg",
+      "price": 680,
+      "rating": 3.5,
+      "reviews": "8,124",
+      "type": "laptop"
+    },
+    {
+      "id": 26,
+      "title": "MARGOUN for Samsung Galaxy Buds2 Pro",
+      "brand": "Margoun",
+      "data": " Case (2022)/Galaxy Buds 2 Case (2021) /Galaxy Buds Pro/Galaxy Buds Live Case with Carabiner (Black)",
+      "image": "/images/products/handPhones/h1.jpeg",
+      "price": 80,
+      "rating": 3.5,
+      "reviews": "8,124",
+      "type": "handPhones"
+    },
+    {
+      "id": 27,
+      "title": "LinJie Wireless Earbuds",
+      "brand": "LinJie",
+      "data": "Bluetooth 5.1 Headphones Compatible with Samsung Galaxy M10, IPX7 Waterproof TWS Stereo Headphones in Ear Built in Mic Headset",
+      "image": "/images/products/handPhones/h2.jpeg",
+      "price": 120,
+      "rating": 3.1,
+      "reviews": "4,124",
+      "type": "handPhones"
+    },
+    {
+      "id": 28,
+      "title": "Sony MDR-ZX110AP",
+      "brand": "Sony",
+      "data": " Extra Bass Smartphone Headphones (Black)",
+      "image": "/images/products/handPhones/h3.jpeg",
+      "price": 70,
+      "rating": 3.8,
+      "reviews": "7,194",
+      "type": "handPhones"
+    },
+    {
+      "id": 29,
+      "title": "SODO SD-1003",
+      "brand": "sodo",
+      "data": " Use Bluetooth 5 Dual Mode Wired Wireless Headphone/AUX/TF Card/Built in Microphone Walk And Talk - Silver",
+      "image": "/images/products/handPhones/h4.jpeg",
+      "price": 140,
+      "rating": 3.9,
+      "reviews": "11,124",
+      "type": "handPhones"
+    },
+    {
+      "id": 30,
+      "title": "Dado AirPods Pro",
+      "brand": "Dado",
+      "data": "2nd Generation Case Cover with Keychain, Soft Silicone Skin Case Cover Full Protective Front LED Visible (Black)",
+      "image": "/images/products/handPhones/h5.jpeg",
+      "price": 50,
+      "rating": 2.6,
+      "reviews": "1,674",
+      "type": "handPhones"
+    },
+    {
+      "id": 31,
+      "title": "Wireless P9",
+      "brand": "Generic",
+      "data": "Bluetooth Headset for All Mobile Phones (Black)",
+      "image": "/images/products/handPhones/h6.jpeg",
+      "price": 190,
+      "rating": 3.7,
+      "reviews": "6,724",
+      "type": "handPhones"
+    },
+    {
+      "id": 32,
+      "title": " Earphone Headset",
+      "brand": "Generic",
+      "data": "Pure WHite Color Earphone Headset w/Remote Mic For iphone 6S/6sPLUS/6/6PLUS/5/4/IPAD/IPOd",
+      "image": "/images/products/handPhones/h7.jpeg",
+      "price": 40,
+      "rating": 2.2,
+      "reviews": "1,124",
+      "type": "handPhones"
+    },
+    {
+      "id": 33,
+      "title": "HE05 Pro Wireless",
+      "brand": "pedkit",
+      "data": "BT Headphone BT5.0 In-ear Earphone IPX5 Waterproof Sport Earbud with Noise Cancelling Mic Black",
+      "image": "/images/products/handPhones/h8.jpeg",
+      "price": 50,
+      "rating": 2.5,
+      "reviews": "2,324",
+      "type": "handPhones"
+    },
+    {
+      "id": 34,
+      "title": "S400BT Wireless ",
+      "brand": "Generic",
+      "data": " On-Ear Bluetooth Stereo Headphones (Red)",
+      "image": "/images/products/handPhones/h9.jpeg",
+      "price": 200,
+      "rating": 3.7,
+      "reviews": "5,124",
+      "type": "handPhones"
+    },
+    {
+      "id": 35,
+      "title": "Wireless Headphone",
+      "brand": "Generic",
+      "data": " Headphone with Microphone for Call Suitable for Sport SD-1002 (Black)",
+      "image": "/images/products/handPhones/h10.jpeg",
+      "price": 180,
+      "rating": 3.5,
+      "reviews": "8,124",
+      "type": "handPhones"
+    },
+    {
+      "id": 36,
+      "title": "USB Cooling Pad Stand ",
+      "brand": "Generic",
+      "data": "Fan Cooler for Laptop Notebook",
+      "image": "/images/products/accessoires/a1.jpeg",
+      "price": 20,
+      "rating": 2.5,
+      "reviews": "2,124",
+      "type": "accessoires"
+    },
+    {
+      "id": 37,
+      "title": "RioGree Laptop Backpack -15.6in",
+      "brand": "RioGree",
+      "data": "",
+      "image": "/images/products/accessoires/a2.jpeg",
+      "price": 25,
+      "rating": 3.5,
+      "reviews": "3,124",
+      "type": "accessoires"
+    },
+    {
+      "id": 38,
+      "title": "Dust Plug ",
+      "brand": "generic",
+      "data": "13Pcs/Set Anti Dust Plug For Laptop Silicone Cover Stopper Laptop dust plug laptop dustproof usb dust plug Computer Accessories (Send By Freedom)",
+      "image": "/images/products/accessoires/a3.jpeg",
+      "price": 8,
+      "rating": 2.9,
+      "reviews": "1,143",
+      "type": "accessoires"
+    },
+    {
+      "id": 39,
+      "title": "Laptop Stand,",
+      "brand": "Hysaa",
+      "data": "Ergonomic Adjustable Laptop Riser, Foldable Aluminium Ventilated Cooling Stand Computer Holder for MacBook Pro Air, iPad, Lenovo, Dell, More 10-15.6â€ Laptops",
+      "image": "/images/products/accessoires/a4.jpeg",
+      "price": 80,
+      "rating": 3.7,
+      "reviews": "4,124",
+      "type": "accessoires"
+    },
+    {
+      "id": 40,
+      "title": "Removable Silicone Keyboard Protector Cover Skin",
+      "brand": "Generic",
+      "data": "For 15.6 inch Laptop (Rainbow)",
+      "image": "/images/products/accessoires/a5.jpeg",
+      "price": 5,
+      "rating": 1.5,
+      "reviews": "0,987",
+      "type": "accessoires"
+    },
+    {
+      "id": 41,
+      "title": "COOSEON Gaming Keyboard and Mouse,",
+      "brand": "COOSEON",
+      "data": "Keyboard and Mouse Combination, Wired Keyboard and Mouse, USB Interface, LED Keyboard, Mechanical Sensitivity, Suitable for Gaming, Work and Entertainment",
+      "image": "/images/products/accessoires/a6.jpeg",
+      "price": 40,
+      "rating": 3.1,
+      "reviews": "2,024",
+      "type": "accessoires"
+    },
+    {
+      "id": 42,
+      "title": "KEPTFIT Magnetic Folded Laptop Phone Holder,",
+      "brand": "KEPTFIT",
+      "data": "Ultra Portable Aluminum Alloy Notebook Cell Phone Holder, Adjustable Laptop Side Mount Smartphone Stand Holder on Office Laptop (Silver)",
+      "image": "/images/products/accessoires/a7.jpeg",
+      "price": 60,
+      "rating": 3.2,
+      "reviews": "4,654",
+      "type": "accessoires"
+    },
+    {
+      "id": 43,
+      "title": "Luxury Electroplated",
+      "brand": "generic",
+      "data": "Edge Soft TPU Bumper, Full Body Camera Protection Heavy Duty Protective Phone Case for Samsung Galaxy S21 Ultra 5G (Black)",
+      "image": "/images/products/accessoires/a8.jpeg",
+      "price": 8,
+      "rating": 1.5,
+      "reviews": "0,124",
+      "type": "accessoires"
+    },
+    {
+      "id": 44,
+      "title": "Phone Holder",
+      "brand": "Paddsun",
+      "data": "3.3 out of 5 stars 129Reviews Paddsun 360° Rear View Mirror Phone Holder, Universal Car Phone Holder Multifunctional Car Phone Mount Adjustable Cradle for Cell Phone for iPhone, Samsung, LG",
+      "image": "/images/products/accessoires/a9.jpeg",
+      "price": 80,
+      "rating": 2.6,
+      "reviews": "2,144",
+      "type": "accessoires"
+    },
+    {
+      "id": 45,
+      "title": "Mobile Phone Camera",
+      "brand": "Generic",
+      "data": "3 in 1 Clip Fish Eye Macro Lens for Mobile Phone Cameras",
+      "image": "/images/products/accessoires/a10.jpeg",
+      "price": 70,
+      "rating": 3.1,
+      "reviews": "5,434",
+      "type": "accessoires"
+    },
+    {
+      "id": 46,
+      "title": "DLseego PUBG Mobile Controller,",
+      "brand": "DLseego",
+      "data": "Trigger Shape Phone Controller Gamepad with L1R1 Trigger for Shooter Sensitive & Aim Trigger Controller for Android & iOS for Knives Out/PUBG/Rules Of Survival",
+      "image": "/images/products/accessoires/a11.jpeg",
+      "price": 20,
+      "rating": 2.9,
+      "reviews": "6,904",
+      "type": "accessoires"
+    },
+    {
+      "id": 47,
+      "title": "CAMOLA Head Strap Mount ABS",
+      "brand": "CAMOLA",
+      "data": "+ Elastic Nylon Belt, Headband Holder with Mobile Phone Clip Bracket iPhone/ Samsung/Sony Action Camera",
+      "image": "/images/products/accessoires/a12.jpeg",
+      "price": 80,
+      "rating": 3.7,
+      "reviews": "6,124",
+      "type": "accessoires"
+    }
+  ],
+  "user": [
+    {
+      "name": "Hossam gaber hamed",
+      "id": "hosam@gmail.com",
+      "password": "1234",
+      "rePassword": "1234"
+    },
+    {
+      "name": "HOSSAM",
+      "id": "hossam@gmail.comm",
+      "password": "12",
+      "rePassword": "12"
+    },
+    {
+      "name": "hossam",
+      "id": "hosssam@gmail.com",
+      "password": "12345678",
+      "rePassword": "12345678"
+    },
+    {
+      "name": "hh",
+      "id": "hh@gmail.com",
+      "password": "1212",
+      "rePassword": "1212"
+    },
+    {
+      "name": "f",
+      "id": "hossam@gmail.com",
+      "password": "123456789",
+      "rePassword": "f"
+    },
+    {
+      "name": "hossam gaber hamed",
+      "id": "hossamgaber@gmail.com",
+      "password": "1212",
+      "rePassword": "1212"
+    },
+    {
+      "name": "hosss",
+      "id": "hg@gmail.com",
+      "password": "1212",
+      "rePassword": "1212"
+    },
+    {
+      "name": "w",
+      "id": "dddh@gmail.com",
+      "password": "11",
+      "rePassword": "11"
+    }
+  ]
+}

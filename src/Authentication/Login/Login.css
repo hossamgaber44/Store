@@ -1,0 +1,102 @@
+
+.log-in-bg{
+    background: rgb(226, 219, 219) ;
+    min-height: 100%;
+    overflow: hidden;
+}
+.login-content{
+    position: fixed;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+    width: 100%;
+    background:#eeeeee;
+   }
+   .login-content .login{
+    position: absolute;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 480px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: #ffffffbb;
+    font-family: cursive;
+    color: white;
+   }
+   .login-content .login input{
+    padding: 11px 22px;
+    margin: 20px 0px;
+    border-radius: 8px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all 0s ease-in-out;
+    background-color:#ffffff;
+    color:#000000;
+    width: 85%;
+}
+.login-content .login .btn{
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 7px 22px;
+    margin: 36px 4px 18px;
+    width:fit-content;
+    font-size: 22px;
+    background: #24d2fe;
+    font-family: cursive;
+    width: fit-content;
+    cursor: pointer;
+    width: fit-content;
+}
+.login-content .login .login-img{
+    border-radius: 50%;
+    margin: auto;
+    padding: -20px;
+    width: 115px;
+    margin-top: -35px;
+    overflow: hidden; 
+}
+.login-content .login img{
+    background: #dbdbdb ;
+   
+}
+.login-content .login h2{
+    padding: 8px 2px;
+    color: #000000;
+}
+.login-content .login input:hover{
+    border: 2px solid rgb(1, 181, 187);   
+}
+.login-content .login .createAccount{
+    color: #000000;
+    opacity: 1;
+    font-size: 15px;
+}
+.login-content .login .createAccount a{
+    color: blue;
+    margin-left: 4px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+@media(max-width:500px){
+    .createAccount-page .Register-content{
+        width: 92%;
+        margin: auto;
+        top: 20px;
+    }
+    .log-in-bg{
+        min-height: 140vh;
+    }
+    .login-content .login{
+        position: absolute;
+        top: 40px;
+        left: 3%;
+        transform: translate(0%,0%);
+        width: 94%;
+        margin: auto;
+       }
+}

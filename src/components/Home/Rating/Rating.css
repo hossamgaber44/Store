@@ -1,0 +1,14 @@
+.rating{
+    margin: 8px 0px;
+}
+.rating span:last-of-type{
+    color: #ffffff;
+    background: rgb(42, 238, 7);
+    border-radius: 18px;
+    width: fit-content;
+    padding: 2px 8px;
+}
+.rating span:first-of-type{
+    color: #2a7ddbb3;
+    margin-right: 6px;
+}
